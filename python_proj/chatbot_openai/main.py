@@ -17,8 +17,8 @@ def chat():
     chatting = True
     while chatting:
         print('(If you want to end the chat, simply type "N" or "n")')
-        usr_prompt = input("You: ")
-        if usr_prompt.strip().lower() == 'n':
+        usr_prompt = input("You: ").strip()
+        if usr_prompt.lower() == 'n':
             chatting = False
         else:
             print("Chatbot: " + chatbot.get_response(usr_prompt))
