@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pizzeria | Codédex</title>
+    <link rel="shortcut icon" href="./assets/icon/Logo_Files/For_Web/Favicons/browser.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Start navbar -->
+    <header>
+        <section>
+            <nav class="navbar">
+                <!-- I use this logo img instead of a h1 element for restaurant name :D -->
+                <figure>
+                    <img src="./assets/icon/Logo_Files/For_Web/png/Color-logo-with-background.png" alt="logo of my pizzeria" id="header-img">
+                </figure>
+                <ul>
+                    <li><a href="#menu"><img src="./assets/icon/minipiz.png" alt="">Menu</a></li>
+                    <li><a href="#order-form"><img src="./assets/icon/roll.png" alt="">Order</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <!-- End navbar -->
+
+
+    <main>
+        <!-- Start menu -->
+        <section id="menu">
+            <div class="menu-hero">
+                <h2>Pizzeria Menu</h2>
+                <img src="./assets/hero.jpg" alt="">
+            </div>
+            <div class="menu-items">
+                <article class="menu-item">
+                    <figure>
+                        <img src="./assets/cheese.jpg" alt="An image of cheese pizza">
+                    </figure>
+                    <div class="menu-item-body">
+                        <div class="name-n-price">
+                            <h3>Cheese Pizza</h3>
+                            <span>$20</span>
+                        </div>
+                        <p>Get our Manhattan Classic Cheese Pizza with your choice of sauce and crust.</p>
+                    </div>
+                </article>
+    
+                <article class="menu-item">
+                    <figure>
+                        <img src="./assets/pepperoni.jpg" alt="An image of pepperoni pizza">
+                    </figure>
+                    <div class="menu-item-body">
+                        <div class="name-n-price">
+                            <h3>Pepperoni Pizza</h3>
+                            <span>$20</span>
+                        </div>
+                        
+                        <p>Get our classic Pepperoni pizza with your choice of sauce and crust.</p>
+                    </div>
+                </article>
+    
+                <article class="menu-item">
+                    <figure>
+                        <img src="./assets/vegan.jpg" alt="An image of veggies pizza">
+                    </figure>
+                    <div class="menu-item-body">
+                        <div class="name-n-price">
+                            <h3>Veggies Pizza</h3>
+                            <span>$20</span>
+                        </div>
+                        <p>Tomato Sauce, Mozzarella, Green Pepper, Onions, Fresh Mushrooms, Tomatoes, and Black Olives.</p>
+                    </div>
+                    
+                </article>
+    
+                <article class="menu-item">
+                    <figure>
+                        <img src="./assets/rustica.jpg" alt="An image of rustica pizza">
+                    </figure>
+                    <div class="menu-item-body">
+                        <div class="name-n-price">
+                            <h3>Rustica Pizza</h3>
+                            <span>$20</span>
+                        </div>
+                        <p>Tomato sauce, mozzarella, sausage, crispy bacon, roasted red peppers, and black olives.</p>
+                    </div>
+                </article>
+    
+                <article class="menu-item">
+                    <figure>
+                        <img src="./assets/delicious.jpg" alt="An image of delicious pizza">
+                    </figure>
+                    <div class="menu-item-body">
+                        <div class="name-n-price">
+                            <h3>Delicious Pizza</h3>
+                            <span>$20</span>
+                        </div>
+                        <p>A mix of Porcini Mushrooms and Decadent Truffle Paste, Mozzarella, Fresh Mushrooms, Caramelized Onions.</p>
+                    </div>
+                </article>
+    
+                <article class="menu-item">
+                    <figure>
+                        <img src="./assets/tomati.jpg" alt="An image of tomato pizza">
+                    </figure>
+                    <div class="menu-item-body">
+                        <div class="name-n-price">
+                            <h3>Tomato Pizza</h3>
+                            <span>$20</span>
+                        </div>
+                        <p>The Classic Marinara Sauce, Roma Tomatoes, Fresh Mozzarella, Fresh Basil, and an Extra Virgin Olive Oil drizzle. </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- End menu -->
+
+        <!-- Start form -->
+        <section id="order-section">
+            <form action="" method="" class="order-form">
+                <h2>Ready to order?</h2>
+                <div class="order-form-items">
+                    <div>
+                        <div class="order-form-item">
+                            <label for="cheese-pizza">Cheese pizza: </label>
+                            <input type="number" id="cheese-pizza" min="0">
+                        </div>
+                        <div class="order-form-item">
+                            <label for="pepperoni-pizza">Pepperoni pizza: </label>
+                            <input type="number" id="pepperoni-pizza" min="0">
+                        </div>
+                        <div class="order-form-item">
+                            <label for="veggies-pizza">Veggies pizza: </label>
+                            <input type="number" id="veggies-pizza" min="0">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="order-form-item">
+                            <label for="rustica-pizza">Rustica pizza: </label>
+                            <input type="number" id="rustica-pizza" min="0">
+                        </div>
+                        <div class="order-form-item">
+                            <label for="delicious-pizza">Delicious pizza: </label>
+                            <input type="number" id="delicious-pizza" min="0">
+                        </div>
+                        <div class="order-form-item">
+                            <label for="tomato-pizza">Tomato pizza: </label>
+                            <input type="number" id="tomato-pizza" min="0">
+                        </div>
+                    </div>
+                    <div >
+                        <ul class="order-form-pizza-options">
+                            <li><input type="radio" name="option-pizza" id="">Medium 14"</li>
+                            <li><input type="radio" name="option-pizza" id="">Large 16" (extra $5)</li>
+                        </ul>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <textarea placeholder="Do you have any special requests?"></textarea>
+                
+                <input type="submit" value="Go To Checkout">
+            </form>
+            <div class="separator"></div>
+        </section>
+        <!-- End form -->
+    </main>
+    <footer>
+        <p>Make with love by ongThien - Codédex</p>
+        <p>Images from <a href="">Freepik</a></p>
+    </footer>
+</body>
+</html>
