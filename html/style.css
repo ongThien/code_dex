@@ -93,6 +93,7 @@ main {
 .menu-hero img {
     object-fit: contain;
     overflow: hidden;
+    width: 100%;
 }
 
 .menu-items {
