@@ -1,2 +1,8 @@
 .env
 __pycache__/
+
+chat_log.txt
+github_practices/
+terminal_practices/
+css/
+js/
