@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/stars-7249785_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Mali", cursive;
+}
+
+.header h1 {
+  margin-top: 16px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.header-hero-img {
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+  width: 275px;
+  height: auto;
+}
+
+.main-prompt {
+  margin-top: 12px;
+}
+
+.main-prompt h2,
+.main-prompt label,
+.main-output {
+  color: aliceblue;
+  text-align: center;
+}
+.main-prompt h2 {
+  font-size: xx-large;
+}
+
+.main-prompt label {
+  display: block;
+  font-size: x-large;
+}
+
+.main-prompt input[type="date"] {
+  padding: 6px;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.main-output {
+  margin: auto;
+  width: 60%;
+  font-size: xx-large;
+}
+
+.main-output p,
+.main-output img {
+  animation-name: show-output;
+  animation-duration: 2s;
+}
+
+.main-output img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.main-output p {
+  color: aliceblue;
+  text-align: justify;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 16px;
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+}
+
+footer a:active,
+footer a:visited {
+  color: aliceblue;
+}
+
+footer a:hover {
+  cursor: pointer;
+  color: antiquewhite;
+}
+
+@keyframes show-output {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
